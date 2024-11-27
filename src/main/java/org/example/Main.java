@@ -10,7 +10,6 @@ public class Main {
 // 1番目の数字を入力してください: 10
 // 演算子を入力してください (+, -, *, /): +
 // 2番目の数字を入力してください: 5
-//
 // 期待される出力例:
 // 計算結果: 10 + 5 = 15
 
@@ -74,7 +73,7 @@ public class Main {
         if (num2 != 0) {
           System.out.println("計算結果:" + num1 + operator + num2 + "=" + num1 / num2);
         } else {
-          System.out.println("エラー: 0で割ることはできません");
+          System.out.println("error: 0で割ることはできません");
           break;
 
         }
